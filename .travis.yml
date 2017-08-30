@@ -7,7 +7,7 @@ python:
 install:
 - pip install tox "setuptools>=28.2"
 script:
-- tox
+- tox -- -n4
 branches:
   except:
   - skeleton
